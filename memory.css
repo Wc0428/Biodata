@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque; 
+  margin: 0;
+  
+}
+
+header {
+  background-color: bisque;
+  padding: 20px;
+}
+h2{
+  font-family: Bruno Ace;
+     text-decoration: underline;
+}
+h1 {
+  margin: 0;
+  font-family: Bruno Ace;
+  text-align: center;
+}
+
+nav {
+  background-color:   #666;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav li {
+  margin: 0 10px;
+  
+}
+
+nav a {
+  color: bisque;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  margin: 10px 0;
+  max-width: 100%;
+  border-radius: 40px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+form {
+  margin: 20px 0;
+}
+
+.box{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  z-index: 999;
+  }
+
+  .box-active{
+  position: fixed;
+  top: 0;
+  }
+
+nav {
+			background-color: #333;
+			color: #fff;
+			height: 50px;
+			line-height: 50px;
+			position: relative;
+			z-index: 999;
+		}
+		.nav-fixed {
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
